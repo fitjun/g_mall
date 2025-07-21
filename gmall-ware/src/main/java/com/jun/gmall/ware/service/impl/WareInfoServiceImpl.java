@@ -5,8 +5,8 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.Query;
+import com.jun.gmall.common.utils.PageUtils;
+import com.jun.gmall.common.utils.Query;
 
 import com.jun.gmall.ware.dao.WareInfoDao;
 import com.jun.gmall.ware.entity.WareInfoEntity;

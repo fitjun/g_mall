@@ -1,7 +1,7 @@
 package com.jun.gmall.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jun.common.utils.PageUtils;
+import com.jun.gmall.common.utils.PageUtils;
 import com.jun.gmall.product.entity.BrandEntity;
 
 import java.util.Map;

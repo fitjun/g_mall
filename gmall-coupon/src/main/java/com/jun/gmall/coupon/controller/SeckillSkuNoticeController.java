@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jun.gmall.coupon.entity.SeckillSkuNoticeEntity;
 import com.jun.gmall.coupon.service.SeckillSkuNoticeService;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.R;
+import com.jun.gmall.common.utils.PageUtils;
+import com.jun.gmall.common.utils.R;
 
 
 

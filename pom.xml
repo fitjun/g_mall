@@ -17,5 +17,6 @@
         <module>renren-generator</module>
         <module>renren-fast</module>
         <module>gmall-common</module>
+        <module>gmall-gateway</module>
     </modules>
 </project>

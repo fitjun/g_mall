@@ -1,7 +1,7 @@
 package com.jun.gmall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jun.common.utils.PageUtils;
+import com.jun.gmall.common.utils.PageUtils;
 import com.jun.gmall.coupon.entity.SkuLadderEntity;
 
 import java.util.Map;

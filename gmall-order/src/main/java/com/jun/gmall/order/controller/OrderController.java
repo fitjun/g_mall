@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jun.gmall.order.entity.OrderEntity;
 import com.jun.gmall.order.service.OrderService;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.R;
+import com.jun.gmall.common.utils.PageUtils;
+import com.jun.gmall.common.utils.R;
 
 
 

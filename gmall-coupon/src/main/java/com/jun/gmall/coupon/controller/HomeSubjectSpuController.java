@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jun.gmall.coupon.entity.HomeSubjectSpuEntity;
 import com.jun.gmall.coupon.service.HomeSubjectSpuService;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.R;
+import com.jun.gmall.common.utils.PageUtils;
+import com.jun.gmall.common.utils.R;
 
 
 

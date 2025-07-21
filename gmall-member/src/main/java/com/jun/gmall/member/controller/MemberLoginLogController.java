@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jun.gmall.member.entity.MemberLoginLogEntity;
 import com.jun.gmall.member.service.MemberLoginLogService;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.R;
+import com.jun.gmall.common.utils.PageUtils;
+import com.jun.gmall.common.utils.R;
 
 
 

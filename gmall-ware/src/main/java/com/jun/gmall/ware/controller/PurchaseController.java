@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jun.gmall.ware.entity.PurchaseEntity;
 import com.jun.gmall.ware.service.PurchaseService;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.R;
+import com.jun.gmall.common.utils.PageUtils;
+import com.jun.gmall.common.utils.R;
 
 
 

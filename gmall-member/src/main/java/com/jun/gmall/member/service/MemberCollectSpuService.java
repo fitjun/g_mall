@@ -1,7 +1,7 @@
 package com.jun.gmall.member.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jun.common.utils.PageUtils;
+import com.jun.gmall.common.utils.PageUtils;
 import com.jun.gmall.member.entity.MemberCollectSpuEntity;
 
 import java.util.Map;

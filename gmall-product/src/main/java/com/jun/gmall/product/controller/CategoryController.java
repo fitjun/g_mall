@@ -1,20 +1,19 @@
 package com.jun.gmall.product.controller;
 
 import java.util.Arrays;
-import java.util.Map;
+import java.util.List;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jun.gmall.product.entity.CategoryEntity;
 import com.jun.gmall.product.service.CategoryService;
-import com.jun.common.utils.PageUtils;
-import com.jun.common.utils.R;
+import com.jun.gmall.common.utils.R;
 
 
 
@@ -27,19 +26,20 @@ import com.jun.common.utils.R;
  */
 @RestController
 @RequestMapping("product/category")
+@Slf4j
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
 
     /**
-     * 列表
+     * 查出所有分类及子分类，以树形结构组装起来
      */
-    @RequestMapping("/list")
-//    @RequiresPermissions("product:category:list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
-
-        return R.ok().put("page", page);
+    @RequestMapping("/list/tree")
+    public R list(){
+        log.info("收到了请求，开始执行");
+        List<CategoryEntity> entities = categoryService.listWithTree();
+        log.info("执行成功");
+        return R.ok().put("data", entities);
     }
 
 
